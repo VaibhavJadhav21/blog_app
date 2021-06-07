@@ -34,7 +34,7 @@ const Contact = mongoose.model('Contact', contactSchema);
 app.set('view engine','hbs');
 
 app.get("/",(req,res)=>{
-    res.render("index");
+    res.render("Home");
 })
 
 
